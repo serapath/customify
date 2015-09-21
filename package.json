@@ -1,0 +1,33 @@
+{
+  "name": "ghostmodeify",
+  "version": "0.1.0",
+  "description": "prepend browsersync-client script tag to bundle.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/browsersyncify.git"
+  },
+  "keywords": [
+    "browserify",
+    "transform",
+    "browser-sync",
+    "browsersync",
+    "ghost",
+    "ghost-mode",
+    "ghostmode"
+  ],
+  "author": "serapath <dev@serapath.de> (http://www.github.com/serapath)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/browsersyncify/issues"
+  },
+  "homepage": "https://github.com/serapath/browsersyncify#readme",
+  "dependencies": {
+    "browser-sync": "^2.9.3",
+    "my-local-ip": "^1.0.0",
+    "through2": "^2.0.0"
+  }
+}
