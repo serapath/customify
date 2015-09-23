@@ -11,6 +11,10 @@ var opts = {
   scrollElementMapping: [],
   logPrefix: "ghostmode",
   logConnections: true,
+  ui: false,
+  socket: {
+    domain: 'http://'+mylocalip()+':3000'
+  },
   notify: false
 }
 bs.init(opts)

@@ -1,6 +1,6 @@
 {
   "name": "ghostmodeify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "prepend browsersync-client script tag to bundle.js",
   "main": "index.js",
   "scripts": {
